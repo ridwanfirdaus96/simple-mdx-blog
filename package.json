@@ -17,16 +17,19 @@
     "@babel/plugin-transform-react-jsx": "^7.10.1",
     "@mdx-js/mdx": "^1.6.5",
     "@mdx-js/react": "^1.6.5",
+    "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.22.15",
     "gatsby-plugin-babel": "^1.0.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-mdx": "^1.2.14",
     "gatsby-plugin-sharp": "^2.6.10",
+    "gatsby-plugin-styled-components": "^3.3.4",
     "gatsby-remark-images": "^3.3.9",
     "gatsby-source-filesystem": "^2.3.10",
     "gatsby-transformer-sharp": "^2.5.4",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
