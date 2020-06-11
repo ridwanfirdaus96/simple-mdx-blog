@@ -14,9 +14,11 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.10.1",
     "@mdx-js/mdx": "^1.6.5",
     "@mdx-js/react": "^1.6.5",
     "gatsby": "^2.22.15",
+    "gatsby-plugin-babel": "^1.0.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-mdx": "^1.2.14",
     "gatsby-plugin-sharp": "^2.6.10",
@@ -27,7 +29,13 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "prettier": "2.0.5"
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-gatsby": "^0.4.9",
+    "prettier": "2.0.5",
+    "webpack": "^4.43.0"
   },
   "repository": {
     "type": "git",

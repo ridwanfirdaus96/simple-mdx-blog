@@ -26,7 +26,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
-        extension: [`.md`, `.mdx`],
+        extension: ['.md', '.mdx'],
         gatsbyRemarkPlugins: [
           {
             resolve: 'gatsby-remark-images',
@@ -42,7 +42,7 @@ module.exports = {
       options: {
         fonts: [
           'roboto mono',
-          'muli\:499,400i,700,700i'
+          'muli:499,400i,700,700i'
         ],
         display: 'swap'
       }
